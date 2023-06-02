@@ -9,53 +9,45 @@ p{
     color: blue; 
 }
 .whatsap{
-    left: 10;
     width:60px;
-    height:60px;
-    line-height: 63px;
     bottom:25px;
     right:25px;
     border-radius:50px;
     text-align:center;
-    font-size:35px;
-    z-index:100;
-    transition: all 300ms ease;
 }
 .whatsap img{
     width: 50px;
 }
 
 .facebook{
-    position:fixed;
     width:60px;
-    height:60px;
-    line-height: 63px;
     bottom:25px;
     right:25px;
     border-radius:50px;
     text-align:center;
-    font-size:35px;
-    z-index:100;
-    transition: all 300ms ease;
 }
 .facebook img{
     width: 50px;
 }
 
 .instagram{
-    position: 5px;
     width:60px;
-    height:60px;
-    line-height: 63px;
     bottom:25px;
     right:25px;
     border-radius:50px;
     text-align:center;
-    font-size:35px;
-    z-index:100;
-    transition: all 300ms ease;
     
 }
 .instagram img{
     width: 50px;
+}
+
+.redes{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /*
+    display: flex;
+    justify-content: end;
+    align-self: end;*/
 }
