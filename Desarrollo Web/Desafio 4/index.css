@@ -8,44 +8,17 @@ p{
     font-size: 2em;
     color: blue; 
 }
-.whatsap{
-    width:60px;
-    bottom:25px;
-    right:25px;
-    border-radius:50px;
+.red{
     text-align:center;
 }
-.whatsap img{
-    width: 50px;
-}
-
-.facebook{
-    width:60px;
-    bottom:25px;
-    right:25px;
-    border-radius:50px;
-    text-align:center;
-}
-.facebook img{
-    width: 50px;
-}
-
-.instagram{
-    width:60px;
-    bottom:25px;
-    right:25px;
-    border-radius:50px;
-    text-align:center;
-    
-}
-.instagram img{
+.red img{
     width: 50px;
 }
 
 .redes{
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 15px;
+    right: 10px;
     /*
     display: flex;
     justify-content: end;
