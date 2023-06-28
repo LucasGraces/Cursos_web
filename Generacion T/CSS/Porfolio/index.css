@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:#333;
+    padding: 10px;
+}
+
+.navbar a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.card {
+    display: inline-flex;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Proyecto_1,
+.Proyecto_2,
+.Proyecto_3 {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    flex-basis: 30%;
+}
+
+.container {
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.Conocimientos {
+    margin-top: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.Contacto {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-{
+    width: 250px;
+    height: 250px;
+}
+.card-titulo{
+    text-decoration: underline 1px;
+    text-decoration-color: black;
+}
+
+/*                <div class="row">
+                    <div class="col-3"><h3>lenguajes de programación</h3></div>
+                    <div class="col-3"><h3>Gestor de Base de datos</h3></div>
+                    <div class="col-3"><h3>Otros</h3></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-auto"><h4>C++</h4></div>
+                    <div class="col-xl-auto"><h4>Java</h4></div>
+                    <div class="col-xl-auto"><h4>JavaScripts</h4></div>
+                    <div class="col-xl-auto"><h4>Phyton</h4></div>
+                    <div class="col-xl-auto"><h4>Mysql</h4></div>
+                    <div class="col-xl-auto"><h4>Sql</h4></div>
+                    <div class="col-xl-auto"><h4>Oracle</h4></div>
+                    <div class="col-xl-auto"><h4>Html</h4></div>
+                    <div class="col-xl-auto"><h4>Css</h4></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/C++.png" class="img-" alt="c++"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/java.png" class="img-" alt="Java"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/javascript.png" class="img-" alt="JavaScripts"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/Python.png" class="img-" alt="Phyton"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/Mysql.png" class="img-" alt="Mysql"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/Sql.svg" class="img-" alt="Sql"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/oracle.png" class="img-" alt="Oracle"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/HTML5.png" class="img-" alt="Html"></div>
+                    <div class="col-xl-auto"><img src="Imagenes/Conocimientos/CSS.png" class="img-" alt="Css"></div>
+                </div>
+                */
